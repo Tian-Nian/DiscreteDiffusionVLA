@@ -76,8 +76,8 @@ torchrun --standalone --nnodes 1 --nproc-per-node X vla-scripts/finetune.py \
   --save_latest_checkpoint_only False \
   --image_aug True \
   --lora_rank 32 \
-  --wandb_entity "YOUR_WANDB_ENTITY" \
-  --wandb_project "YOUR_WANDB_PROJECT" \
+  --wandb_entity "1250576969-" \
+  --wandb_project "DiscreteDiffusionVLA" \
   --run_id_note parallel_dec--25_acts_chunk--continuous_acts--L1_regression--3rd_person_img--left_right_wrist_imgs--proprio_state--film
 ```
 
